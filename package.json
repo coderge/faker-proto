@@ -1,7 +1,9 @@
 {
   "name": "faker-proto",
   "version": "1.0.0",
+  "license": "MIT",
   "description": "Generate mock data from protobuf files.",
+  "keywords": ["faker", "mock", "proto", "pb"],
   "umd:main": "dist/index.umd.js",
   "types": "dist/index.d.ts",
   "main": "dist/index.js",
@@ -15,6 +17,10 @@
     "dist"
   ],
   "author": "Coderge",
+  "repository": {
+    "type": "git",
+    "directory": "https://gitlab.com/coderge/faker-proto"
+  },
   "devDependencies": {
     "@types/fs-extra": "^8.1.0",
     "@types/lodash": "^4.14.149",
