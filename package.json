@@ -1,0 +1,45 @@
+{
+  "name": "faker-proto",
+  "version": "1.0.0",
+  "description": "Generate mock data from protobuf files.",
+  "umd:main": "dist/index.umd.js",
+  "types": "dist/index.d.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "unpkg": "dist/index.umd.js",
+  "scripts": {
+    "build": "microbundle --globals protobufjs=protobuf",
+    "prepack": "npm run build"
+  },
+  "files": [
+    "dist"
+  ],
+  "author": "Coderge",
+  "devDependencies": {
+    "@types/fs-extra": "^8.1.0",
+    "@types/lodash": "^4.14.149",
+    "@types/mockjs": "^1.0.2",
+    "@types/node": "^13.7.4",
+    "@types/nodegit": "^0.26.1",
+    "@types/restify": "^8.4.2",
+    "@types/restify-cors-middleware": "^1.0.1",
+    "@types/shelljs": "^0.8.6",
+    "@typescript-eslint/eslint-plugin": "^2.20.0",
+    "@typescript-eslint/parser": "^2.20.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "lodash": "^4.17.15",
+    "microbundle": "^0.12.0-next.8",
+    "prettier": "^1.19.1",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.8.2"
+  },
+  "dependencies": {
+    "globby": "^11.0.0",
+    "mockjs": "^1.1.0",
+    "protobufjs": "^6.8.8",
+    "restify": "^8.5.1",
+    "shelljs": "^0.8.3"
+  }
+}

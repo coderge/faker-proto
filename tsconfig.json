@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "target": "es5",
+    "lib": [
+      "esnext"
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    },
+    "rootDirs": ["src"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "noImplicitAny": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "noEmit": true,
+    "jsx": "preserve"
+  },
+  "include": [
+    "src",
+    "src/typings"
+  ]
+}

@@ -1,0 +1,14 @@
+# Project ignore
+.proto_tmp
+.fakerpbrc
+dist
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+node_modules
+.DS_Store
+.idea
