@@ -1,5 +1,8 @@
 # faker-proto
 
+[![npm version](https://img.shields.io/npm/v/faker-proto.svg)](https://npmjs.org/package/faker-proto)
+[![npm license](https://img.shields.io/npm/l/faker-proto.svg)](https://npmjs.org/package/faker-proto)
+
 Generate mock data from protobuf files.
 
 ## Prepare Protobuf Files Repository
